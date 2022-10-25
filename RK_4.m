@@ -1,7 +1,7 @@
 syms x;
 x=input('x0=');
 y=input('y(x0)=');
-f(x)=input('dy/dx=');
+f(x,y)=input('dy/dx=');
 h=input('h=');
 t=input('x_final=')-x/h;
 K1=@(x,y) f(x,y);
