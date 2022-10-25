@@ -4,8 +4,8 @@ y=input('y(x0)=');
 f(x,y)=input('dy/dx=');
 h=input('h=');
 t=input('x_final=')-x/h;
-fp=@(a,b) b+h*f(a,b);
-fc=@(a,b) b+h*f(a+h,fp(a,b));
+fp=@(x,y) y+h*f(x,y);
+fc=@(x,y) y+h*f(x+h,fp(x,y));
 for i=1:t
     y=1/2*(fp(x,y)+fc(x,y));
     x=x+h;
