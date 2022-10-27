@@ -3,7 +3,7 @@ x=input('x0=');
 y=input('y(x0)=');
 f(x,y)=input('dy/dx=');
 h=input('h=');
-t=input('x_final=')-x/h;
+t=(input('x_final=')-x)/h;
 K1=@(x,y) f(x,y);
 K2=@(x,y) f(x+h/2,y+h/2*K1(x,y));
 K3=@(x,y) f(x+h/2,y+h/2*K2(x,y));
