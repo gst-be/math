@@ -3,6 +3,7 @@
 
 ### 常微分方程初值问题
 https://github.com/gst-be/math/tree/main/ODE
+[详细文章](https://bebebe.be/archives/26/)
 - [欧拉法](https://github.com/gst-be/math/tree/main/ODE/eular)
 - [改进欧拉法](https://github.com/gst-be/math/tree/main/ODE/improved-eular)
 - [四阶龙格-库塔法](https://github.com/gst-be/math/tree/main/ODE/RK)
